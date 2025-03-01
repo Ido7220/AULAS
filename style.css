@@ -1,0 +1,25 @@
+/*comentário*/
+h2{
+    color: chocolate; /* agora todos os h2 estão nessa cor*/
+}
+body{
+    background-color: aqua;
+}
+
+/*estilizar uma classe no css*/
+
+.texto-vermelho{
+    color: red;
+}
+
+#paragrafo{
+    color: red;
+}
+
+#paragrafo{
+    color: red;
+}
+
+.topo{
+    background-color: aqua;
+}
