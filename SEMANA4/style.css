@@ -1,0 +1,28 @@
+body{
+    background-color: green;
+}
+
+
+/*se for id*/
+#topo{
+    background-color:  black;
+}
+
+/*se for class*/
+.topo{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topo a{
+    padding: 10px;
+    text-decoration: nome;
+    color: white;
+}
+
+.topo ul{
+    display: flex;
+    list-style: none;
+}
