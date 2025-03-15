@@ -1,0 +1,27 @@
+td, td{ /*posso mesclar tanto a linha e coluna na mesma região*/
+    border: 1px solid black; /*cria uma borda*/ 
+    background-color: gray;
+    border-radius: 5px; /*arredondar bordas*/
+    padding: 10px; /*espaçamento*/
+    text-align: center; /*centralizar texto*/
+}
+
+/*esticando a tabela na páguina inteira*/
+.tabela{
+   width: 100%; 
+
+}
+
+th{
+    background-color: black;
+    color: white;   
+}
+
+.Relatorio{
+    padding: 100%;
+}
+td:hover {
+    background-color: purple;
+}
+
+
