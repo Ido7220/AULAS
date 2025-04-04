@@ -1,0 +1,14 @@
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: purple;
+}
+
+
+.botoes{   
+    display: grid;
+    grid-template-columns: 
+    repeat(4, 1fr);
+}

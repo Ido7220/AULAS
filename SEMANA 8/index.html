@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora da padaria</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Bem Vindo! Calculadora da padaria do Jaime</h1>
+
+    <div class="calculadora">
+
+        <div class="display">
+            <input type="text" id="display-calculadora">
+        </div>
+        <div class="botoes">
+            <button onclick="expressao('7')">7</button>
+            <button onclick="expressao('8')">8</button>
+            <button onclick="expressao('9')">9</button>
+            <button onclick="expressao('/')">/</button>
+
+            <button onclick="expressao('4')">4</button>
+            <button onclick="expressao('5')">5</button>
+            <button onclick="expressao('6')">6</button>
+            <button onclick="expressao('-')">-</button>
+            
+            <button onclick="expressao('1')">1</button>
+            <button onclick="expressao('2')">2</button>
+            <button onclick="expressao('3')">3</button>
+            <button onclick="expressao('+')">+</button>
+
+            <button onclick="expressao('0')">0</button>
+            <button onclick="calcular()">=</button>
+            <button onclick="limpar()">CE</button>
+            <button onclick="expressao('*')">*</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
